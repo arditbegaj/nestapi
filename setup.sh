@@ -1,1 +1,2 @@
-echo 'bootstrapper'
+touch albin.txt
+echo 'bootstrapper' >> albin.txt
