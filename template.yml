@@ -1,0 +1,15 @@
+package:
+  code: nest-app
+  version: 1.0.0
+
+config:
+  type: api
+  language: typescript
+  framework: nest
+  bundler: webpack@5
+  bootstrapper: ./setup.js
+
+modules:
+  identity:
+    type: aws-cognito
+    features: "?"
